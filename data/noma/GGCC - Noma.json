@@ -1,0 +1,27 @@
+{
+  "product_name": "Es De Noma",
+  "product_code": "VOUCHER",
+  "company_name": "Noma",
+  "medical_emergency_amount": "USD 500.000,00",
+  "pre_existing_conditions": null,
+  "covid_coverage": null,
+  "dental_emergency_amount": null,
+  "pregnancy_coverage": null,
+  "medical_repatriation": null,
+  "funeral_repatriation": null,
+  "baggage_loss": null,
+  "baggage_delay": null,
+  "trip_cancellation": null,
+  "geographic_coverage": null,
+  "max_trip_duration": null,
+  "age_limit": null,
+  "emergency_phone": "+1 305 6005541",
+  "_extraction_metadata": {
+    "company_detected": "Noma",
+    "filename": "GGCC - Noma.md",
+    "extraction_timestamp": "2025-07-07T13:50:31.847570",
+    "fields_extracted": 5,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

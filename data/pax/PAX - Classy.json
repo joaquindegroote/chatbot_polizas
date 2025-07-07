@@ -1,0 +1,27 @@
+{
+  "product_name": "Classy Pax Ls 4 Meses",
+  "product_code": "Classy Pax Ls 4 Meses",
+  "company_name": "Pax",
+  "medical_emergency_amount": "EUR 60.000",
+  "pre_existing_conditions": "USD/EUR 10.000",
+  "covid_coverage": "INCLUIDO",
+  "dental_emergency_amount": "USD/EUR 500",
+  "pregnancy_coverage": "USD/EUR 10.000",
+  "medical_repatriation": "INCLUIDO",
+  "funeral_repatriation": "INCLUIDO",
+  "baggage_loss": "USD/EUR 1.200",
+  "baggage_delay": "USD/EUR 200",
+  "trip_cancellation": "USD/EUR 300",
+  "geographic_coverage": "Mundial excepto país de residencia",
+  "max_trip_duration": "365 días",
+  "age_limit": "75 años",
+  "emergency_phone": "+56983622930",
+  "_extraction_metadata": {
+    "company_detected": "Pax",
+    "filename": "PAX - Classy.md",
+    "extraction_timestamp": "2025-07-07T13:51:50.290365",
+    "fields_extracted": 17,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

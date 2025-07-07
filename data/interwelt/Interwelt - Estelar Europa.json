@@ -1,0 +1,27 @@
+{
+  "product_name": "Estelar Europa",
+  "product_code": "ESTELAR EUROPA",
+  "company_name": "Interwelt",
+  "medical_emergency_amount": "EUR 30.000",
+  "pre_existing_conditions": "EUR 700",
+  "covid_coverage": "EUR 30.000",
+  "dental_emergency_amount": "EUR 450",
+  "pregnancy_coverage": null,
+  "medical_repatriation": "EUR 30.000",
+  "funeral_repatriation": "EUR 30.000",
+  "baggage_loss": "EUR 1.000",
+  "baggage_delay": "EUR 250",
+  "trip_cancellation": null,
+  "geographic_coverage": "EUROPA",
+  "max_trip_duration": "90",
+  "age_limit": "Sin limite",
+  "emergency_phone": "+51 984 216550",
+  "_extraction_metadata": {
+    "company_detected": "Interwelt",
+    "filename": "Interwelt - Estelar Europa.md",
+    "extraction_timestamp": "2025-07-07T13:50:00.084220",
+    "fields_extracted": 15,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

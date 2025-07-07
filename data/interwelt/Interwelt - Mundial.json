@@ -1,0 +1,27 @@
+{
+  "product_name": "Es Trotamundo",
+  "product_code": "MUNDIAL - Viaje Simple Low Cost",
+  "company_name": "Interwelt",
+  "medical_emergency_amount": "USD 35.000",
+  "pre_existing_conditions": "USD 600",
+  "covid_coverage": "USD 35.000 (resto del mundo), USD 10.000 (EEUU y Canadá)",
+  "dental_emergency_amount": "USD 300",
+  "pregnancy_coverage": null,
+  "medical_repatriation": "USD 35.000",
+  "funeral_repatriation": "USD 35.000",
+  "baggage_loss": "USD 800",
+  "baggage_delay": "USD 200",
+  "trip_cancellation": null,
+  "geographic_coverage": "Mundial",
+  "max_trip_duration": "90",
+  "age_limit": "Sin limite",
+  "emergency_phone": "+51 984 216550",
+  "_extraction_metadata": {
+    "company_detected": "Interwelt",
+    "filename": "Interwelt - Mundial.md",
+    "extraction_timestamp": "2025-07-07T13:50:18.570282",
+    "fields_extracted": 15,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

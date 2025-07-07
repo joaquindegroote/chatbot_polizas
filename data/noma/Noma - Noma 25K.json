@@ -1,0 +1,27 @@
+{
+  "product_name": "Noma 25K",
+  "product_code": "Noma 25K",
+  "company_name": "Noma",
+  "medical_emergency_amount": "USD 25.000",
+  "pre_existing_conditions": "No aplica / do not apply",
+  "covid_coverage": "USD 25.000",
+  "dental_emergency_amount": "USD 150",
+  "pregnancy_coverage": "USD 300",
+  "medical_repatriation": "INCLUIDO",
+  "funeral_repatriation": "INCLUIDO",
+  "baggage_loss": "USD 200",
+  "baggage_delay": "USD 150",
+  "trip_cancellation": "No aplica / do not apply",
+  "geographic_coverage": "Mundial, excepto país de residencia",
+  "max_trip_duration": "90 Días",
+  "age_limit": "45 años / 46 hasta 60 años recargo del 35%",
+  "emergency_phone": "+1 305 6005541",
+  "_extraction_metadata": {
+    "company_detected": "Noma",
+    "filename": "Noma - Noma 25K.md",
+    "extraction_timestamp": "2025-07-07T13:50:54.093939",
+    "fields_extracted": 17,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

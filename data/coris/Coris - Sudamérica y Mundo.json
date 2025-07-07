@@ -1,0 +1,27 @@
+{
+  "product_name": "Plan Sudam",
+  "product_code": "SUDAMÉRICA & MUNDO",
+  "company_name": "Coris",
+  "medical_emergency_amount": "USD 18000",
+  "pre_existing_conditions": "USD 250",
+  "covid_coverage": "INCLUIDO",
+  "dental_emergency_amount": "USD 250",
+  "pregnancy_coverage": null,
+  "medical_repatriation": "INCLUIDO",
+  "funeral_repatriation": "INCLUIDO",
+  "baggage_loss": "USD 500",
+  "baggage_delay": null,
+  "trip_cancellation": null,
+  "geographic_coverage": "Mundial excepto País de residencia",
+  "max_trip_duration": "120 días",
+  "age_limit": "Hasta 75/85 con incremento del 50%",
+  "emergency_phone": "+56968390983",
+  "_extraction_metadata": {
+    "company_detected": "Coris",
+    "filename": "Coris - Sudamérica y Mundo.md",
+    "extraction_timestamp": "2025-07-07T13:48:52.174137",
+    "fields_extracted": 14,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "product_name": "Basic Pax",
+  "product_code": "Basic Pax",
+  "company_name": "Pax",
+  "medical_emergency_amount": "EUR 30.000",
+  "pre_existing_conditions": "USD/EUR 6.000",
+  "covid_coverage": "INCLUIDO",
+  "dental_emergency_amount": "USD/EUR 300",
+  "pregnancy_coverage": "USD/EUR 5.000",
+  "medical_repatriation": "INCLUIDO",
+  "funeral_repatriation": "INCLUIDO",
+  "baggage_loss": "USD/EUR 1.200",
+  "baggage_delay": "USD/EUR 150",
+  "trip_cancellation": "USD/EUR 200",
+  "geographic_coverage": "Mundial excepto país de residencia",
+  "max_trip_duration": "Hasta 120 días",
+  "age_limit": "Menores de 75 años",
+  "emergency_phone": "+56999690265",
+  "_extraction_metadata": {
+    "company_detected": "Pax",
+    "filename": "PAX - Basic.md",
+    "extraction_timestamp": "2025-07-07T13:51:39.256194",
+    "fields_extracted": 17,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

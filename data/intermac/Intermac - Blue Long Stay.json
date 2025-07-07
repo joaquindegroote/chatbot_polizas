@@ -1,0 +1,27 @@
+{
+  "product_name": "NOVALIDOPARACREDITOFISCAL",
+  "product_code": "CP-BLUELONGSTAY",
+  "company_name": "Intermac",
+  "medical_emergency_amount": "USD 100.000",
+  "pre_existing_conditions": "USD 700",
+  "covid_coverage": "INCLUIDO",
+  "dental_emergency_amount": "USD 750",
+  "pregnancy_coverage": null,
+  "medical_repatriation": "USD 100.000",
+  "funeral_repatriation": "USD 60.000",
+  "baggage_loss": "USD 100",
+  "baggage_delay": "USD 800",
+  "trip_cancellation": "USD 1.000",
+  "geographic_coverage": "MUNDIAL",
+  "max_trip_duration": "365 DÍAS",
+  "age_limit": "85 AÑOS*",
+  "emergency_phone": "+541177003272",
+  "_extraction_metadata": {
+    "company_detected": "Intermac",
+    "filename": "Intermac - Blue Long Stay.md",
+    "extraction_timestamp": "2025-07-07T13:48:57.816108",
+    "fields_extracted": 16,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

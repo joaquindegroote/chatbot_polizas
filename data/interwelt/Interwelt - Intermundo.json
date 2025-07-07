@@ -1,0 +1,27 @@
+{
+  "product_name": "Es Trotamundo",
+  "product_code": "Trotamundo",
+  "company_name": "Interwelt",
+  "medical_emergency_amount": "USD 23000",
+  "pre_existing_conditions": "USD 400",
+  "covid_coverage": "USD 23000 (resto del mundo), USD 10000 (EEUU y Canadá)",
+  "dental_emergency_amount": "USD 300",
+  "pregnancy_coverage": null,
+  "medical_repatriation": "USD 23000",
+  "funeral_repatriation": "USD 23000",
+  "baggage_loss": "USD 450",
+  "baggage_delay": "USD 100",
+  "trip_cancellation": null,
+  "geographic_coverage": "Mundial",
+  "max_trip_duration": "90 días",
+  "age_limit": "85 años",
+  "emergency_phone": "+51 984 216550",
+  "_extraction_metadata": {
+    "company_detected": "Interwelt",
+    "filename": "Interwelt - Intermundo.md",
+    "extraction_timestamp": "2025-07-07T13:50:09.585427",
+    "fields_extracted": 15,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

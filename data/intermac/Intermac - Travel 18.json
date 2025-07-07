@@ -1,0 +1,27 @@
+{
+  "product_name": "NOVALIDOPARACREDITOFISCAL",
+  "product_code": null,
+  "company_name": "Intermac",
+  "medical_emergency_amount": "USD 18000",
+  "pre_existing_conditions": "USD 60",
+  "covid_coverage": "INCLUIDO",
+  "dental_emergency_amount": "USD 250",
+  "pregnancy_coverage": null,
+  "medical_repatriation": "USD 500",
+  "funeral_repatriation": "USD 500",
+  "baggage_loss": "INCLUIDO",
+  "baggage_delay": null,
+  "trip_cancellation": "INCLUIDO",
+  "geographic_coverage": "Internacional",
+  "max_trip_duration": "35 días",
+  "age_limit": "75/85",
+  "emergency_phone": "+541177003272",
+  "_extraction_metadata": {
+    "company_detected": "Intermac",
+    "filename": "Intermac - Travel 18.md",
+    "extraction_timestamp": "2025-07-07T13:49:21.273122",
+    "fields_extracted": 14,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

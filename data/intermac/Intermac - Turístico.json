@@ -1,0 +1,27 @@
+{
+  "product_name": "CP-TURISTICO",
+  "product_code": "null",
+  "company_name": "Intermac",
+  "medical_emergency_amount": "USD 15.000",
+  "pre_existing_conditions": "USD 250",
+  "covid_coverage": "USD 15.000",
+  "dental_emergency_amount": "USD 250",
+  "pregnancy_coverage": "null",
+  "medical_repatriation": "INCLUIDO",
+  "funeral_repatriation": "INCLUIDO",
+  "baggage_loss": "USD 500",
+  "baggage_delay": "null",
+  "trip_cancellation": "null",
+  "geographic_coverage": "AMERICA DEL SUR Y CENTRAL",
+  "max_trip_duration": "5 días",
+  "age_limit": "75/85",
+  "emergency_phone": "+541177003272",
+  "_extraction_metadata": {
+    "company_detected": "Intermac",
+    "filename": "Intermac - Turístico.md",
+    "extraction_timestamp": "2025-07-07T13:49:45.164091",
+    "fields_extracted": 17,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

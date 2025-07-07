@@ -1,0 +1,27 @@
+{
+  "product_name": "Ac 1M",
+  "product_code": "AC 1M",
+  "company_name": "Assist Card",
+  "medical_emergency_amount": "USD 1.000.000",
+  "pre_existing_conditions": "USD 30.000",
+  "covid_coverage": "INCLUIDO",
+  "dental_emergency_amount": "USD 1.000",
+  "pregnancy_coverage": "USD 10.000 (INCLUIDO HASTA LA SEMANA 26)",
+  "medical_repatriation": "USD 100.000",
+  "funeral_repatriation": "USD 100.000",
+  "baggage_loss": "USD 4.500 - USD 40 POR KG",
+  "baggage_delay": "USD 50 CADA 8 HORAS (MÁXIMO USD 300)",
+  "trip_cancellation": "USD 500",
+  "geographic_coverage": "INTERNACIONAL",
+  "max_trip_duration": "30 DÍAS",
+  "age_limit": "69 AÑOS O MENORES",
+  "emergency_phone": "+5491127039665",
+  "_extraction_metadata": {
+    "company_detected": "Assist Card",
+    "filename": "Assist Card - AC 1 MILLON.md",
+    "extraction_timestamp": "2025-07-07T13:47:38.118890",
+    "fields_extracted": 17,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

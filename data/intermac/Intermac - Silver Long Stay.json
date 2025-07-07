@@ -1,0 +1,27 @@
+{
+  "product_name": "NOVALIDOPARACREDITOFISCAL",
+  "product_code": "CP-SILVERLONG",
+  "company_name": "Intermac",
+  "medical_emergency_amount": "EUR 30.000",
+  "pre_existing_conditions": "EUR 500",
+  "covid_coverage": "US$30,000",
+  "dental_emergency_amount": "300",
+  "pregnancy_coverage": null,
+  "medical_repatriation": "US$30.000",
+  "funeral_repatriation": "US$30.000",
+  "baggage_loss": "US$1.200",
+  "baggage_delay": "US$400",
+  "trip_cancellation": "US$INCLUIDO",
+  "geographic_coverage": "MUNDIAL",
+  "max_trip_duration": "365 DÍAS",
+  "age_limit": "60 AÑOS",
+  "emergency_phone": "+541177003272",
+  "_extraction_metadata": {
+    "company_detected": "Intermac",
+    "filename": "Intermac - Silver Long Stay.md",
+    "extraction_timestamp": "2025-07-07T13:49:17.589966",
+    "fields_extracted": 16,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

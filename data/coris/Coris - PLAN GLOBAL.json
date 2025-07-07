@@ -1,0 +1,27 @@
+{
+  "product_name": "Plan Global",
+  "product_code": "Global",
+  "company_name": "Coris",
+  "medical_emergency_amount": "USD 65000",
+  "pre_existing_conditions": "USD 800 (1º asistencia)",
+  "covid_coverage": "INCLUIDO",
+  "dental_emergency_amount": "USD 600",
+  "pregnancy_coverage": "USD 10000",
+  "medical_repatriation": "INCLUIDO",
+  "funeral_repatriation": "INCLUIDO",
+  "baggage_loss": "USD 1200",
+  "baggage_delay": "USD 800",
+  "trip_cancellation": "USD 600 Toda Causa",
+  "geographic_coverage": "Mundial excepto País de residencia",
+  "max_trip_duration": null,
+  "age_limit": "Hasta 76/99 con incremento del 50%",
+  "emergency_phone": "+56985003928",
+  "_extraction_metadata": {
+    "company_detected": "Coris",
+    "filename": "Coris - PLAN GLOBAL.md",
+    "extraction_timestamp": "2025-07-07T13:48:44.054920",
+    "fields_extracted": 16,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

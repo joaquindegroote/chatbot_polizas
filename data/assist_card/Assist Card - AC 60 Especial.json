@@ -1,0 +1,27 @@
+{
+  "product_name": "AC 60",
+  "product_code": "AC 60",
+  "company_name": "Assist Card",
+  "medical_emergency_amount": "USD 60.000",
+  "pre_existing_conditions": "USD 300",
+  "covid_coverage": "INCLUIDO",
+  "dental_emergency_amount": "USD 500",
+  "pregnancy_coverage": "USD 10.000 (INCLUIDO HASTA LA SEMANA 26)",
+  "medical_repatriation": "INCLUIDO",
+  "funeral_repatriation": "INCLUIDO",
+  "baggage_loss": "USD 1.200 - USD 40 POR KG*",
+  "baggage_delay": "USD 50 CADA 8 HORAS (MÁXIMO USD 200)*",
+  "trip_cancellation": "USD 500",
+  "geographic_coverage": "INTERNACIONAL",
+  "max_trip_duration": "HASTA 365 DÍAS",
+  "age_limit": "NO APLICAN LIMITACIONES POR EDAD",
+  "emergency_phone": "+5491127039665",
+  "_extraction_metadata": {
+    "company_detected": "Assist Card",
+    "filename": "Assist Card - AC 60 Especial.md",
+    "extraction_timestamp": "2025-07-07T13:48:07.330704",
+    "fields_extracted": 17,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

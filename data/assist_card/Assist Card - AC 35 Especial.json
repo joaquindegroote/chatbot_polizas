@@ -1,0 +1,27 @@
+{
+  "product_name": "AC 35",
+  "product_code": "AC 35",
+  "company_name": "Assist Card",
+  "medical_emergency_amount": "USD 2.500.000",
+  "pre_existing_conditions": "NO APLICAN LIMITACIONES POR EDAD",
+  "covid_coverage": "INCLUIDO",
+  "dental_emergency_amount": "EUR 500",
+  "pregnancy_coverage": "EUR 10.000",
+  "medical_repatriation": "INCLUIDO",
+  "funeral_repatriation": "INCLUIDO",
+  "baggage_loss": "USD 1.200 - USD 40 POR KG",
+  "baggage_delay": "USD 50 CADA 8 HORAS (MÁXIMO USD 200)",
+  "trip_cancellation": null,
+  "geographic_coverage": "INTERNACIONAL",
+  "max_trip_duration": "HASTA 365 DÍAS",
+  "age_limit": null,
+  "emergency_phone": "+5491127039665",
+  "_extraction_metadata": {
+    "company_detected": "Assist Card",
+    "filename": "Assist Card - AC 35 Especial.md",
+    "extraction_timestamp": "2025-07-07T13:47:55.709709",
+    "fields_extracted": 15,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

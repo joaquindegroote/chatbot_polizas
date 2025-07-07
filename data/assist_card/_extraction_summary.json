@@ -1,0 +1,40 @@
+{
+  "company": null,
+  "total_products_processed": 7,
+  "quality_distribution": {
+    "high": 7
+  },
+  "average_completeness": 0.964,
+  "average_critical_score": 1.0,
+  "field_coverage": {
+    "product_name": 7,
+    "product_code": 7,
+    "company_name": 7,
+    "medical_emergency_amount": 7,
+    "pre_existing_conditions": 7,
+    "medical_repatriation": 7,
+    "funeral_repatriation": 7,
+    "baggage_loss": 7,
+    "geographic_coverage": 7,
+    "max_trip_duration": 7,
+    "emergency_phone": 7,
+    "trip_cancellation": 4
+  },
+  "most_covered_fields": [
+    "product_name",
+    "product_code",
+    "company_name",
+    "medical_emergency_amount",
+    "pre_existing_conditions"
+  ],
+  "least_covered_fields": [
+    "trip_cancellation",
+    "product_name",
+    "product_code",
+    "company_name",
+    "medical_emergency_amount"
+  ],
+  "schema_evolution": [],
+  "discovered_fields": [],
+  "processing_timestamp": "2025-07-06T16:59:44.342835"
+}

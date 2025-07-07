@@ -1,0 +1,27 @@
+{
+  "product_name": "Gold Plus",
+  "product_code": "Gold Plus",
+  "company_name": "Coris",
+  "medical_emergency_amount": "EUR 35.000",
+  "pre_existing_conditions": "USD 5.000",
+  "covid_coverage": "INCLUIDO",
+  "dental_emergency_amount": "USD 300",
+  "pregnancy_coverage": "USD 12.000",
+  "medical_repatriation": "INCLUIDO",
+  "funeral_repatriation": "INCLUIDO",
+  "baggage_loss": "USD 1.000",
+  "baggage_delay": "USD 300",
+  "trip_cancellation": "USD 800",
+  "geographic_coverage": "Mundial excepto País de residencia",
+  "max_trip_duration": "120",
+  "age_limit": "Hasta 75/85 con incremento del 50%",
+  "emergency_phone": "+56997443954",
+  "_extraction_metadata": {
+    "company_detected": "Coris",
+    "filename": "Coris - Gold Plus.md",
+    "extraction_timestamp": "2025-07-07T13:48:39.602616",
+    "fields_extracted": 17,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

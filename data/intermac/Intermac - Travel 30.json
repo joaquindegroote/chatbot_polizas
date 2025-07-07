@@ -1,0 +1,27 @@
+{
+  "product_name": "CP-I30 “NOVALIDOPARACREDITOFISCAL“",
+  "product_code": "CP-I30",
+  "company_name": "Intermac",
+  "medical_emergency_amount": "EUR 30.000",
+  "pre_existing_conditions": "EUR 300",
+  "covid_coverage": null,
+  "dental_emergency_amount": "USD 300",
+  "pregnancy_coverage": null,
+  "medical_repatriation": "USD 600",
+  "funeral_repatriation": "USD 600",
+  "baggage_loss": "INCLUIDO",
+  "baggage_delay": null,
+  "trip_cancellation": "INCLUIDO",
+  "geographic_coverage": "Internacional",
+  "max_trip_duration": "25 días",
+  "age_limit": "75/85",
+  "emergency_phone": "+541177003272",
+  "_extraction_metadata": {
+    "company_detected": "Intermac",
+    "filename": "Intermac - Travel 30.md",
+    "extraction_timestamp": "2025-07-07T13:49:30.393548",
+    "fields_extracted": 14,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

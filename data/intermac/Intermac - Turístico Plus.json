@@ -1,0 +1,27 @@
+{
+  "product_name": "CP-TURISTICOPLUS",
+  "product_code": "TURISTICOPLUS",
+  "company_name": "Intermac",
+  "medical_emergency_amount": "USD 25.000",
+  "pre_existing_conditions": "USD 500",
+  "covid_coverage": "USD 25.000",
+  "dental_emergency_amount": "USD 500",
+  "pregnancy_coverage": null,
+  "medical_repatriation": "INCLUIDO",
+  "funeral_repatriation": "INCLUIDO",
+  "baggage_loss": "USD 800",
+  "baggage_delay": null,
+  "trip_cancellation": "INCLUIDO",
+  "geographic_coverage": "INTERNACIONAL",
+  "max_trip_duration": "4 días",
+  "age_limit": "85",
+  "emergency_phone": "+541177003272",
+  "_extraction_metadata": {
+    "company_detected": "Intermac",
+    "filename": "Intermac - Turístico Plus.md",
+    "extraction_timestamp": "2025-07-07T13:49:41.598765",
+    "fields_extracted": 15,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

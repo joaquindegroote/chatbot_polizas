@@ -1,0 +1,27 @@
+{
+  "product_name": "Diamond Plus",
+  "product_code": "Diamond Plus",
+  "company_name": "Coris",
+  "medical_emergency_amount": "USD 110.000",
+  "pre_existing_conditions": "USD 10.000",
+  "covid_coverage": "INCLUIDO",
+  "dental_emergency_amount": "USD 750",
+  "pregnancy_coverage": "USD 12.000",
+  "medical_repatriation": "INCLUIDO",
+  "funeral_repatriation": "INCLUIDO",
+  "baggage_loss": "USD 1.500",
+  "baggage_delay": "USD 600",
+  "trip_cancellation": "USD 1.000",
+  "geographic_coverage": "MUNDIAL excepto País de residencia",
+  "max_trip_duration": "120 días",
+  "age_limit": "Hasta 75/85 con incremento del 50%",
+  "emergency_phone": "+56998328263",
+  "_extraction_metadata": {
+    "company_detected": "Coris",
+    "filename": "Coris - Diamond Plus.md",
+    "extraction_timestamp": "2025-07-07T13:48:34.953235",
+    "fields_extracted": 17,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

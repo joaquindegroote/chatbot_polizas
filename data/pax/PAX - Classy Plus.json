@@ -1,0 +1,27 @@
+{
+  "product_name": "Classy Plus",
+  "product_code": "CLASSY PLUS PAX",
+  "company_name": "Pax",
+  "medical_emergency_amount": "USD 100.000",
+  "pre_existing_conditions": "USD 10.000",
+  "covid_coverage": "INCLUIDO",
+  "dental_emergency_amount": "USD 600",
+  "pregnancy_coverage": "USD 11.000",
+  "medical_repatriation": "INCLUIDO",
+  "funeral_repatriation": "INCLUIDO",
+  "baggage_loss": "USD 1.200",
+  "baggage_delay": "USD 300",
+  "trip_cancellation": "USD 400",
+  "geographic_coverage": "Mundial excepto país de residencia",
+  "max_trip_duration": "120 días",
+  "age_limit": "75 años",
+  "emergency_phone": "+56991998837",
+  "_extraction_metadata": {
+    "company_detected": "Pax",
+    "filename": "PAX - Classy Plus.md",
+    "extraction_timestamp": "2025-07-07T13:51:44.770408",
+    "fields_extracted": 17,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

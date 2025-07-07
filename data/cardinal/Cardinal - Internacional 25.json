@@ -1,0 +1,23 @@
+{
+  "company_name": "Cardinal",
+  "product_code": "Plano Adquirido",
+  "product_name": "Plano Adquirido",
+  "emergency_phone": "+56942936012",
+  "max_trip_duration": "30 días",
+  "covid_coverage": "USD 1.000",
+  "pregnancy_coverage": "Incluido hasta semana 26 de embarazo",
+  "geographic_coverage": "MUNDIAL",
+  "medical_repatriation": "Incluido",
+  "funeral_repatriation": "Incluido",
+  "baggage_loss": "1.200",
+  "baggage_delay": "72",
+  "age_limit": "74 años",
+  "_extraction_metadata": {
+    "company_detected": "Cardinal",
+    "filename": "Cardinal - Internacional 25.md",
+    "extraction_timestamp": "2025-07-07T13:48:24.019577",
+    "fields_extracted": 13,
+    "total_fields": 13,
+    "extraction_method": "cardinal_specific"
+  }
+}

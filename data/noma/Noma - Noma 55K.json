@@ -1,0 +1,27 @@
+{
+  "product_name": "Noma 55K",
+  "product_code": "Noma 55K",
+  "company_name": "Noma",
+  "medical_emergency_amount": "USD 55.000",
+  "pre_existing_conditions": "No aplica",
+  "covid_coverage": "USD 55.000",
+  "dental_emergency_amount": "USD 200",
+  "pregnancy_coverage": "No aplica",
+  "medical_repatriation": "INCLUIDO",
+  "funeral_repatriation": "INCLUIDO",
+  "baggage_loss": "USD 400",
+  "baggage_delay": "USD 250",
+  "trip_cancellation": "USD 200",
+  "geographic_coverage": "Mundial, excepto país de residencia",
+  "max_trip_duration": "90 Días",
+  "age_limit": "45 años / 46 hasta 60 años recargo del 35%",
+  "emergency_phone": "+1 305 6005541",
+  "_extraction_metadata": {
+    "company_detected": "Noma",
+    "filename": "Noma - Noma 55K.md",
+    "extraction_timestamp": "2025-07-07T13:51:13.645971",
+    "fields_extracted": 17,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}

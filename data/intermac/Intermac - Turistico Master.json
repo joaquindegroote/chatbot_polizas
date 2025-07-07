@@ -1,0 +1,27 @@
+{
+  "product_name": "CP-TURISTICOMASTER",
+  "product_code": "null",
+  "company_name": "Intermac",
+  "medical_emergency_amount": "USD 60.000",
+  "pre_existing_conditions": "USD 500",
+  "covid_coverage": "USD 60.000",
+  "dental_emergency_amount": "USD 1.000",
+  "pregnancy_coverage": "null",
+  "medical_repatriation": "INCLUIDO",
+  "funeral_repatriation": "INCLUIDO",
+  "baggage_loss": "USD 1.200",
+  "baggage_delay": "null",
+  "trip_cancellation": "INCLUIDO",
+  "geographic_coverage": "INTERNACIONAL",
+  "max_trip_duration": "4 días",
+  "age_limit": "85",
+  "emergency_phone": "+541177003272",
+  "_extraction_metadata": {
+    "company_detected": "Intermac",
+    "filename": "Intermac - Turistico Master.md",
+    "extraction_timestamp": "2025-07-07T13:49:37.996485",
+    "fields_extracted": 17,
+    "total_fields": 17,
+    "extraction_method": "llm_generic"
+  }
+}
