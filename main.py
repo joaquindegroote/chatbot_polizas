@@ -50,7 +50,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("### 💡 Ejemplos de Preguntas")
     ejemplos = [
-        "¿Qué cubre la póliza básica de Mapfre?",
+        "¿Qué cubre la póliza básica de Noma?",
         "¿Cuál es la edad máxima para contratar seguro?",
         "¿Qué exclusiones tiene el seguro médico?",
         "¿Cuánto es el deducible para equipaje?",
@@ -74,7 +74,7 @@ with col1:
         "📝 Escribe tu pregunta sobre seguros:", 
         value=pregunta_inicial,
         height=100,
-        placeholder="Ejemplo: ¿Qué cubre la póliza de Mapfre para emergencias médicas?"
+        placeholder="Ejemplo: ¿Qué cubre la póliza de Pax para emergencias médicas?"
     )
     
     # Limpiar la pregunta ejemplo después de usarla
