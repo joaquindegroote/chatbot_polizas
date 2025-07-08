@@ -50,7 +50,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("### 💡 Ejemplos de Preguntas")
     ejemplos = [
-        "¿Qué cubre la póliza básica de Pax?",
+        "¿Qué cubre la póliza básica de  Assist Card?",
         "¿Cuál es la edad máxima para contratar seguro?",
         "¿Qué exclusiones tiene el seguro médico?",
         "¿Cuánto es el deducible para equipaje?",
