@@ -1,27 +1,311 @@
 {
-  "product_name": "Noma 90K",
-  "product_code": "Noma 90K",
-  "company_name": "Noma",
-  "medical_emergency_amount": "USD 90.000",
-  "pre_existing_conditions": "No aplica",
-  "covid_coverage": "USD 50.000",
-  "dental_emergency_amount": "USD 400",
-  "pregnancy_coverage": "USD 800",
-  "medical_repatriation": "INCLUIDO",
-  "funeral_repatriation": "INCLUIDO",
-  "baggage_loss": "USD 700",
-  "baggage_delay": "INCLUIDO",
-  "trip_cancellation": "USD 300",
-  "geographic_coverage": "Mundial, excepto país de residencia",
-  "max_trip_duration": "90 Días",
-  "age_limit": "45 años / 46 hasta 60 años recargo del 35%",
-  "emergency_phone": "+1 305 6005541",
-  "_extraction_metadata": {
+  "compania": "Noma",
+  "producto": {
+    "nombre": "Noma 90K - Viaje Simple",
+    "codigo": "15557",
+    "vigencia": {
+      "desde": "25/01/2025",
+      "hasta": "08/02/2025"
+    },
+    "dias_maximos": 90,
+    "restricciones_edad": {
+      "limite": 45,
+      "grupo_etario": "46 hasta 60 años recargo del 35%",
+      "observaciones": ""
+    },
+    "cobertura_geografica": "Mundial, excepto país de residencia",
+    "territorialidad": "internacional",
+    "aseguradora": "",
+    "requiere_autorizacion": true,
+    "asistencia_covid": true,
+    "franquicia": ""
+  },
+  "cobertura_global": {
+    "monto": 90000,
+    "moneda": "USD"
+  },
+  "coberturas_detalladas": [
+    {
+      "tipo": "asistencia_medica_accidente",
+      "monto": 90000,
+      "moneda": "USD",
+      "descripcion": "Asistencia médica por accidente"
+    },
+    {
+      "tipo": "asistencia_medica_enfermedad_no_preexistente",
+      "monto": 90000,
+      "moneda": "USD",
+      "descripcion": "Asistencia médica por enfermedad no preexistente"
+    },
+    {
+      "tipo": "asistencia_medica_covid",
+      "monto": 50000,
+      "moneda": "USD",
+      "descripcion": "Asistencia médica por COVID-19"
+    },
+    {
+      "tipo": "asistencia_legal_accidente_transito",
+      "monto": 1500,
+      "moneda": "USD",
+      "descripcion": "Asistencia legal por accidente de tránsito"
+    },
+    {
+      "tipo": "practica_deporte_amateur",
+      "monto": 3000,
+      "moneda": "USD",
+      "descripcion": "Práctica por deporte amateur y/o actividad recreativa"
+    },
+    {
+      "tipo": "emergencia_dental",
+      "monto": 400,
+      "moneda": "USD",
+      "descripcion": "Emergencia dental"
+    },
+    {
+      "tipo": "gastos_hotel_convalecencia",
+      "monto": 800,
+      "moneda": "USD",
+      "descripcion": "Gastos de hotel por convalecencia"
+    },
+    {
+      "tipo": "gastos_embarazo",
+      "monto": 800,
+      "moneda": "USD",
+      "descripcion": "Gastos médicos por complicaciones de embarazo (26 semanas)"
+    },
+    {
+      "tipo": "asistencia_veterinaria",
+      "monto": 300,
+      "moneda": "USD",
+      "descripcion": "Asistencia veterinaria en caso de enfermedad o accidente"
+    },
+    {
+      "tipo": "transferencia_fondos",
+      "monto": 10000,
+      "moneda": "USD",
+      "descripcion": "Transferencia de fondos"
+    },
+    {
+      "tipo": "transferencia_fondos_fianza_legal",
+      "monto": 10000,
+      "moneda": "USD",
+      "descripcion": "Transferencia de fondos para fianza legal"
+    }
+  ],
+  "seguros": [],
+  "cancelacion_viaje": {
+    "incluido": true,
+    "monto": 300,
+    "evento_multiple": null,
+    "moneda": "USD"
+  },
+  "equipaje": {
+    "demora": {
+      "monto": null,
+      "moneda": "",
+      "detalle": ""
+    },
+    "perdida": {
+      "monto": 700,
+      "moneda": "USD",
+      "detalle": "Compensación por pérdida de equipaje"
+    },
+    "danio": {
+      "monto": null,
+      "moneda": "",
+      "detalle": ""
+    },
+    "localizacion": {
+      "incluido": true,
+      "detalle": "Orientación en extravío de documentos, equipajes"
+    }
+  },
+  "otros_servicios": {
+    "asistencia_documentos": true,
+    "electronicos_protegidos": {
+      "incluido": false,
+      "monto": null,
+      "moneda": ""
+    },
+    "cruceros": true,
+    "deportes_amateur": true,
+    "orientacion_turistica": true,
+    "asistencia_legal": true,
+    "fianza_legal": true,
+    "transmision_mensajes": true,
+    "reemplazo_ejecutivo": true,
+    "asistencia_veterinaria": true
+  },
+  "requisitos_uso": [
+    "Comunicación previa o dentro de las 24 horas del incidente",
+    "Tener voucher, contacto y ubicación a mano"
+  ],
+  "contacto": {
+    "telefonos": {
+      "latinoamerica": "+55 1142308791",
+      "norteamerica": "+1 305 6005541",
+      "europa": "+34 911986998",
+      "asia": "",
+      "resto_del_mundo": "",
+      "otros": []
+    },
+    "whatsapp": "+507 62527067",
+    "emails": [],
+    "sitios_web": []
+  },
+  "observaciones": [],
+  "notas": [
+    "Las condiciones pueden variar según edad, país y duración.",
+    "Algunos beneficios aplican solo si se solicita asistencia previa.",
+    "Los beneficios pueden estar sujetos a franquicia o copago.",
+    "Cobertura no aplica en país de residencia salvo indicación expresa."
+  ],
+  "beneficios_adicionales": {
+    "consultas_virtuales": [],
+    "bonificaciones_post_viaje": "",
+    "extensibilidad_voucher": false,
+    "covid_gastos_cremacion": 2000,
+    "cuarentena_covid_hotel": {
+      "monto": 2000,
+      "pais": "Costa Rica"
+    },
+    "repatriacion_quiebra_aerea": false,
+    "restricciones_explicitas": []
+  },
+  "coberturas_estandarizadas": {
+    "asistencia_medica": {
+      "monto": 90000,
+      "moneda": "USD",
+      "descripcion": "Asistencia médica por enfermedad no preexistente"
+    },
+    "asistencia_medica_preexistente": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "asistencia_medica_covid": {
+      "monto": 50000,
+      "moneda": "USD",
+      "descripcion": "Asistencia médica por COVID-19"
+    },
+    "asistencia_embarazo": {
+      "monto": 800,
+      "moneda": "USD",
+      "descripcion": "Gastos médicos por complicaciones de embarazo (26 semanas)"
+    },
+    "odontologia_emergencia": {
+      "monto": 400,
+      "moneda": "USD",
+      "descripcion": "Emergencia dental"
+    },
+    "medicamentos": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "hotel_convalecencia": {
+      "monto": 800,
+      "moneda": "USD",
+      "descripcion": "Gastos de hotel por convalecencia"
+    },
+    "hotel_cuarentena_covid": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "equipaje_perdido": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "equipaje_demora": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "equipaje_danio": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "cancelacion_viaje": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "vuelo_demorado": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "deportes_amateur": {
+      "monto": 3000,
+      "moneda": "USD",
+      "descripcion": "Práctica por deporte amateur y/o actividad recreativa"
+    },
+    "asistencia_legal": {
+      "monto": 1500,
+      "moneda": "USD",
+      "descripcion": "Asistencia legal por accidente de tránsito"
+    },
+    "fianza_legal": {
+      "monto": 10000,
+      "moneda": "USD",
+      "descripcion": "Transferencia de fondos para fianza legal"
+    },
+    "pasaporte_perdido": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "protesis_ortesis": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "asistencia_veterinaria": {
+      "monto": 300,
+      "moneda": "USD",
+      "descripcion": "Asistencia veterinaria en caso de enfermedad o accidente"
+    },
+    "repatriacion": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "repatriacion_covid": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    }
+  },
+  "seguros_estandarizados": {
+    "vida": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "invalidez_total": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "invalidez_permanente": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "accidentes_personales": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    }
+  },
+  "_metadata": {
     "company_detected": "Noma",
     "filename": "Noma - Noma 90K.md",
-    "extraction_timestamp": "2025-07-07T13:51:27.529108",
-    "fields_extracted": 17,
-    "total_fields": 17,
-    "extraction_method": "llm_generic"
+    "extraction_timestamp": "2025-07-07T23:07:47.400967",
+    "schema_version": "standardized_v1.0",
+    "normalization_applied": true
   }
 }

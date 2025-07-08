@@ -1,27 +1,323 @@
 {
-  "product_name": "Gold Plus",
-  "product_code": "Gold Plus",
-  "company_name": "Coris",
-  "medical_emergency_amount": "EUR 35.000",
-  "pre_existing_conditions": "USD 5.000",
-  "covid_coverage": "INCLUIDO",
-  "dental_emergency_amount": "USD 300",
-  "pregnancy_coverage": "USD 12.000",
-  "medical_repatriation": "INCLUIDO",
-  "funeral_repatriation": "INCLUIDO",
-  "baggage_loss": "USD 1.000",
-  "baggage_delay": "USD 300",
-  "trip_cancellation": "USD 800",
-  "geographic_coverage": "Mundial excepto País de residencia",
-  "max_trip_duration": "120",
-  "age_limit": "Hasta 75/85 con incremento del 50%",
-  "emergency_phone": "+56997443954",
-  "_extraction_metadata": {
+  "compania": "Coris",
+  "producto": {
+    "nombre": "Gold Plus",
+    "codigo": "CL25012530308",
+    "vigencia": {
+      "desde": "25/01/2025",
+      "hasta": ""
+    },
+    "dias_maximos": 120,
+    "restricciones_edad": {
+      "limite": 85,
+      "grupo_etario": "Hasta 75/85 con incremento del 50%",
+      "observaciones": ""
+    },
+    "cobertura_geografica": "Mundial excepto País de residencia",
+    "territorialidad": "internacional",
+    "aseguradora": "Compara Online",
+    "requiere_autorizacion": true,
+    "asistencia_covid": true,
+    "franquicia": ""
+  },
+  "cobertura_global": {
+    "monto": 35000,
+    "moneda": "USD"
+  },
+  "coberturas_detalladas": [
+    {
+      "tipo": "asistencia_medica_accidente",
+      "monto": 35000,
+      "moneda": "USD",
+      "descripcion": "Asistencia Médica en caso Accidente"
+    },
+    {
+      "tipo": "asistencia_medica_enfermedad",
+      "monto": 35000,
+      "moneda": "USD",
+      "descripcion": "Asistencia médica en caso de enfermedad"
+    },
+    {
+      "tipo": "asistencia_medica_enfermedad_cronica",
+      "monto": 5000,
+      "moneda": "USD",
+      "descripcion": "Asistencia médica por Enfermedad crónica o preexistente"
+    },
+    {
+      "tipo": "asistencia_medica_covid",
+      "monto": 35000,
+      "moneda": "USD",
+      "descripcion": "Asistencia médica por COVID19"
+    },
+    {
+      "tipo": "odontologia_urgencia",
+      "monto": 300,
+      "moneda": "USD",
+      "descripcion": "Odontología de Urgencia"
+    },
+    {
+      "tipo": "gastos_hotel_convalecencia",
+      "monto": 400,
+      "moneda": "USD",
+      "descripcion": "Gastos de Hotel por Convalecencia"
+    },
+    {
+      "tipo": "gastos_vuelo_demorado",
+      "monto": 200,
+      "moneda": "USD",
+      "descripcion": "Gastos por vuelo demorado"
+    },
+    {
+      "tipo": "compensacion_perdida_equipaje",
+      "monto": 1000,
+      "moneda": "USD",
+      "descripcion": "Compensación por perdida de equipaje"
+    },
+    {
+      "tipo": "compensacion_demora_equipaje",
+      "monto": 300,
+      "moneda": "USD",
+      "descripcion": "Compensación de gastos de 1era. necesidad por demora entrega equipaje"
+    },
+    {
+      "tipo": "transferencia_fondos",
+      "monto": 2000,
+      "moneda": "USD",
+      "descripcion": "Transferencia de Fondos"
+    },
+    {
+      "tipo": "transferencia_fondos_fianza_penal",
+      "monto": 5000,
+      "moneda": "USD",
+      "descripcion": "Transferencia de fondos para fianza penal"
+    },
+    {
+      "tipo": "asistencia_legal_accidente_transito",
+      "monto": 2000,
+      "moneda": "USD",
+      "descripcion": "Asistencia legal por accidente de tránsito"
+    },
+    {
+      "tipo": "cobertura_embarazadas",
+      "monto": 12000,
+      "moneda": "USD",
+      "descripcion": "Cobertura Plus para Embarazadas"
+    }
+  ],
+  "seguros": [],
+  "cancelacion_viaje": {
+    "incluido": true,
+    "monto": 800,
+    "evento_multiple": 1,
+    "moneda": "USD"
+  },
+  "equipaje": {
+    "demora": {
+      "monto": 300,
+      "moneda": "USD",
+      "detalle": "Compensación de gastos de 1era. necesidad por demora entrega equipaje"
+    },
+    "perdida": {
+      "monto": 1000,
+      "moneda": "USD",
+      "detalle": "Compensación por perdida de equipaje"
+    },
+    "danio": {
+      "monto": null,
+      "moneda": "",
+      "detalle": ""
+    },
+    "localizacion": {
+      "incluido": true,
+      "detalle": "Localización y asistencia en caso de extravío de documentos"
+    }
+  },
+  "otros_servicios": {
+    "asistencia_documentos": true,
+    "electronicos_protegidos": {
+      "incluido": false,
+      "monto": null,
+      "moneda": ""
+    },
+    "cruceros": true,
+    "deportes_amateur": true,
+    "orientacion_turistica": true,
+    "asistencia_legal": true,
+    "fianza_legal": true,
+    "transmision_mensajes": false,
+    "reemplazo_ejecutivo": false,
+    "asistencia_veterinaria": false
+  },
+  "requisitos_uso": [
+    "Comunicación previa o dentro de las 24 horas del incidente",
+    "Tener voucher, contacto y ubicación a mano"
+  ],
+  "contacto": {
+    "telefonos": {
+      "latinoamerica": "Chile: 800-20-1380, Colombia: 01800-954-7016, Perú: 0800-5-4754, Brasil: 0800-761-4754, Venezuela: 0800-100-4858",
+      "norteamerica": "USA: 1833-491-2032, México: 800-283-3254",
+      "europa": "Alemania: 0800-082-6097, Reino Unido: 0800-031-8220, Francia: 0800-99-1844, Suiza: 0800-55-3239, Italia: 800-17-2638, España: 900-99-9496",
+      "asia": "",
+      "resto_del_mundo": "54 11 4130-0300",
+      "otros": []
+    },
+    "whatsapp": "",
+    "emails": [],
+    "sitios_web": []
+  },
+  "observaciones": [],
+  "notas": [
+    "Las condiciones pueden variar según edad, país y duración.",
+    "Algunos beneficios aplican solo si se solicita asistencia previa.",
+    "Los beneficios pueden estar sujetos a franquicia o copago.",
+    "Cobertura no aplica en país de residencia salvo indicación expresa."
+  ],
+  "beneficios_adicionales": {
+    "consultas_virtuales": [],
+    "bonificaciones_post_viaje": "",
+    "extensibilidad_voucher": false,
+    "covid_gastos_cremacion": null,
+    "cuarentena_covid_hotel": {
+      "monto": null,
+      "pais": ""
+    },
+    "repatriacion_quiebra_aerea": false,
+    "restricciones_explicitas": []
+  },
+  "coberturas_estandarizadas": {
+    "asistencia_medica": {
+      "monto": 5000,
+      "moneda": "USD",
+      "descripcion": "Asistencia médica por Enfermedad crónica o preexistente"
+    },
+    "asistencia_medica_preexistente": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "asistencia_medica_covid": {
+      "monto": 35000,
+      "moneda": "USD",
+      "descripcion": "Asistencia médica por COVID19"
+    },
+    "asistencia_embarazo": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "odontologia_emergencia": {
+      "monto": 300,
+      "moneda": "USD",
+      "descripcion": "Odontología de Urgencia"
+    },
+    "medicamentos": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "hotel_convalecencia": {
+      "monto": 400,
+      "moneda": "USD",
+      "descripcion": "Gastos de Hotel por Convalecencia"
+    },
+    "hotel_cuarentena_covid": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "equipaje_perdido": {
+      "monto": 1000,
+      "moneda": "USD",
+      "descripcion": "Compensación por perdida de equipaje"
+    },
+    "equipaje_demora": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "equipaje_danio": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "cancelacion_viaje": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "vuelo_demorado": {
+      "monto": 200,
+      "moneda": "USD",
+      "descripcion": "Gastos por vuelo demorado"
+    },
+    "deportes_amateur": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "asistencia_legal": {
+      "monto": 2000,
+      "moneda": "USD",
+      "descripcion": "Asistencia legal por accidente de tránsito"
+    },
+    "fianza_legal": {
+      "monto": 5000,
+      "moneda": "USD",
+      "descripcion": "Transferencia de fondos para fianza penal"
+    },
+    "pasaporte_perdido": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "protesis_ortesis": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "asistencia_veterinaria": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "repatriacion": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "repatriacion_covid": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    }
+  },
+  "seguros_estandarizados": {
+    "vida": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "invalidez_total": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "invalidez_permanente": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "accidentes_personales": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    }
+  },
+  "_metadata": {
     "company_detected": "Coris",
     "filename": "Coris - Gold Plus.md",
-    "extraction_timestamp": "2025-07-07T13:48:39.602616",
-    "fields_extracted": 17,
-    "total_fields": 17,
-    "extraction_method": "llm_generic"
+    "extraction_timestamp": "2025-07-07T22:58:16.299304",
+    "schema_version": "standardized_v1.0",
+    "normalization_applied": true
   }
 }

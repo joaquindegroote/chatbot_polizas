@@ -1,27 +1,293 @@
 {
-  "product_name": "Light Pax",
-  "product_code": "Light Pax",
-  "company_name": "Pax",
-  "medical_emergency_amount": "USD 10.000",
-  "pre_existing_conditions": "USD/EUR 400",
-  "covid_coverage": "INCLUIDO",
-  "dental_emergency_amount": "USD 300",
-  "pregnancy_coverage": "USD/EUR 2.500",
-  "medical_repatriation": "INCLUIDO",
-  "funeral_repatriation": "INCLUIDO",
-  "baggage_loss": "USD 300",
-  "baggage_delay": "USD 80",
-  "trip_cancellation": "USD/EUR 100",
-  "geographic_coverage": "Mundial excepto país de residencia",
-  "max_trip_duration": "120 días",
-  "age_limit": "75 años",
-  "emergency_phone": "+56989899108",
-  "_extraction_metadata": {
+  "compania": "Pax",
+  "producto": {
+    "nombre": "LIGHT PAX",
+    "codigo": "S000T5Q",
+    "vigencia": {
+      "desde": "14/09/2024",
+      "hasta": "18/09/2024"
+    },
+    "dias_maximos": 120,
+    "restricciones_edad": {
+      "limite": 75,
+      "grupo_etario": "menores de 75 años",
+      "observaciones": "Válido para menores de 75 años"
+    },
+    "cobertura_geografica": "Mundial excepto país de residencia",
+    "territorialidad": "internacional",
+    "aseguradora": "",
+    "requiere_autorizacion": true,
+    "asistencia_covid": true,
+    "franquicia": ""
+  },
+  "cobertura_global": {
+    "monto": 10000,
+    "moneda": "USD/EUR"
+  },
+  "coberturas_detalladas": [
+    {
+      "tipo": "asistencia_medica_accidente",
+      "monto": 10000,
+      "moneda": "USD/EUR",
+      "descripcion": "Asistencia médica en caso de accidente y/o enfermedad no preexistente (incluye Covid)"
+    },
+    {
+      "tipo": "asistencia_medica_enfermedad_preexistente",
+      "monto": 400,
+      "moneda": "USD/EUR",
+      "descripcion": "Asistencia médica por enfermedad preexistente o crónica"
+    },
+    {
+      "tipo": "medicamentos_ambulatorios",
+      "monto": 400,
+      "moneda": "USD/EUR",
+      "descripcion": "Medicamentos ambulatorios"
+    },
+    {
+      "tipo": "odontologia_urgencia",
+      "monto": 300,
+      "moneda": "USD/EUR",
+      "descripcion": "Odontología de urgencia"
+    },
+    {
+      "tipo": "protesis_ortesis",
+      "monto": 500,
+      "moneda": "USD/EUR",
+      "descripcion": "Protésis y ortesis"
+    },
+    {
+      "tipo": "gastos_medicos_deportes_amateur",
+      "monto": 2500,
+      "moneda": "USD/EUR",
+      "descripcion": "Gastos médicos por lesiones en práctica de deportes Amateur"
+    },
+    {
+      "tipo": "gastos_medicos_embarazo",
+      "monto": 2500,
+      "moneda": "USD/EUR",
+      "descripcion": "Gastos médicos por complicaciones de embarazo (hasta la semana 26)"
+    },
+    {
+      "tipo": "gastos_hotel_convalecencia",
+      "monto": 300,
+      "moneda": "USD/EUR",
+      "descripcion": "Gastos de hotel por convalecencia"
+    }
+  ],
+  "seguros": [],
+  "cancelacion_viaje": {
+    "incluido": true,
+    "monto": 100,
+    "evento_multiple": 25000,
+    "moneda": "USD/EUR"
+  },
+  "equipaje": {
+    "demora": {
+      "monto": 80,
+      "moneda": "USD/EUR",
+      "detalle": "Compensación por demora en la devolución del equipaje (Más de 6 horas)"
+    },
+    "perdida": {
+      "monto": 300,
+      "moneda": "USD/EUR",
+      "detalle": "Compensación por pérdida de equipaje"
+    },
+    "danio": {
+      "monto": null,
+      "moneda": "",
+      "detalle": ""
+    },
+    "localizacion": {
+      "incluido": true,
+      "detalle": "Localización de equipajes"
+    }
+  },
+  "otros_servicios": {
+    "asistencia_documentos": true,
+    "electronicos_protegidos": {
+      "incluido": false,
+      "monto": null,
+      "moneda": ""
+    },
+    "cruceros": false,
+    "deportes_amateur": true,
+    "orientacion_turistica": false,
+    "asistencia_legal": false,
+    "fianza_legal": false,
+    "transmision_mensajes": false,
+    "reemplazo_ejecutivo": true,
+    "asistencia_veterinaria": false
+  },
+  "requisitos_uso": [
+    "Comunicación previa o dentro de las 24 horas del incidente",
+    "Tener voucher, contacto y ubicación a mano"
+  ],
+  "contacto": {
+    "telefonos": {
+      "latinoamerica": "+54 11 5236-0432, +55 11 4210-1698, 01-800-5190446, 000-413-598-5729",
+      "norteamerica": "1 (305) 560-5362, 1 (800) 982-1395",
+      "europa": "900 876 062",
+      "asia": "",
+      "resto_del_mundo": "",
+      "otros": []
+    },
+    "whatsapp": "",
+    "emails": [],
+    "sitios_web": []
+  },
+  "observaciones": [],
+  "notas": [
+    "Las condiciones pueden variar según edad, país y duración.",
+    "Algunos beneficios aplican solo si se solicita asistencia previa.",
+    "Los beneficios pueden estar sujetos a franquicia o copago.",
+    "Cobertura no aplica en país de residencia salvo indicación expresa."
+  ],
+  "beneficios_adicionales": {
+    "consultas_virtuales": [],
+    "bonificaciones_post_viaje": "",
+    "extensibilidad_voucher": false,
+    "covid_gastos_cremacion": null,
+    "cuarentena_covid_hotel": {
+      "monto": null,
+      "pais": ""
+    },
+    "repatriacion_quiebra_aerea": true,
+    "restricciones_explicitas": []
+  },
+  "coberturas_estandarizadas": {
+    "asistencia_medica": {
+      "monto": 10000,
+      "moneda": "USD/EUR",
+      "descripcion": "Asistencia médica en caso de accidente y/o enfermedad no preexistente (incluye Covid)"
+    },
+    "asistencia_medica_preexistente": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "asistencia_medica_covid": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "asistencia_embarazo": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "odontologia_emergencia": {
+      "monto": 300,
+      "moneda": "USD/EUR",
+      "descripcion": "Odontología de urgencia"
+    },
+    "medicamentos": {
+      "monto": 400,
+      "moneda": "USD/EUR",
+      "descripcion": "Medicamentos ambulatorios"
+    },
+    "hotel_convalecencia": {
+      "monto": 300,
+      "moneda": "USD/EUR",
+      "descripcion": "Gastos de hotel por convalecencia"
+    },
+    "hotel_cuarentena_covid": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "equipaje_perdido": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "equipaje_demora": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "equipaje_danio": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "cancelacion_viaje": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "vuelo_demorado": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "deportes_amateur": {
+      "monto": 2500,
+      "moneda": "USD/EUR",
+      "descripcion": "Gastos médicos por lesiones en práctica de deportes Amateur"
+    },
+    "asistencia_legal": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "fianza_legal": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "pasaporte_perdido": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "protesis_ortesis": {
+      "monto": 500,
+      "moneda": "USD/EUR",
+      "descripcion": "Protésis y ortesis"
+    },
+    "asistencia_veterinaria": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "repatriacion": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "repatriacion_covid": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    }
+  },
+  "seguros_estandarizados": {
+    "vida": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "invalidez_total": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "invalidez_permanente": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "accidentes_personales": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    }
+  },
+  "_metadata": {
     "company_detected": "Pax",
     "filename": "PAX - Light.md",
-    "extraction_timestamp": "2025-07-07T13:52:03.970084",
-    "fields_extracted": 17,
-    "total_fields": 17,
-    "extraction_method": "llm_generic"
+    "extraction_timestamp": "2025-07-07T23:09:11.954077",
+    "schema_version": "standardized_v1.0",
+    "normalization_applied": true
   }
 }

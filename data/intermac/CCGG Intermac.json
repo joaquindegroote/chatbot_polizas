@@ -1,19 +1,19 @@
 {
-  "compania": "Noma",
+  "compania": "Intermac",
   "producto": {
-    "nombre": "Noma 57K - Viaje Simple",
-    "codigo": "15525",
+    "nombre": "",
+    "codigo": "",
     "vigencia": {
-      "desde": "30/01/2025",
-      "hasta": "26/02/2025"
+      "desde": "",
+      "hasta": ""
     },
-    "dias_maximos": 90,
+    "dias_maximos": null,
     "restricciones_edad": {
-      "limite": 45,
-      "grupo_etario": "46 hasta 60 años recargo del 35%",
+      "limite": null,
+      "grupo_etario": "",
       "observaciones": ""
     },
-    "cobertura_geografica": "Mundial, excepto país de residencia",
+    "cobertura_geografica": "",
     "territorialidad": "internacional",
     "aseguradora": "",
     "requiere_autorizacion": true,
@@ -21,59 +21,16 @@
     "franquicia": ""
   },
   "cobertura_global": {
-    "monto": 57000,
+    "monto": 0,
     "moneda": "USD"
   },
-  "coberturas_detalladas": [
-    {
-      "tipo": "asistencia_medica_accidente",
-      "monto": 57000,
-      "moneda": "USD",
-      "descripcion": "Asistencia médica por accidente"
-    },
-    {
-      "tipo": "asistencia_medica_enfermedad_no_preexistente",
-      "monto": 57000,
-      "moneda": "USD",
-      "descripcion": "Asistencia médica por enfermedad no preexistente"
-    },
-    {
-      "tipo": "asistencia_medica_covid",
-      "monto": 57000,
-      "moneda": "USD",
-      "descripcion": "Asistencia médica por COVID-19"
-    },
-    {
-      "tipo": "asistencia_legal_accidente_transito",
-      "monto": 1000,
-      "moneda": "USD",
-      "descripcion": "Asistencia legal por accidente de tránsito"
-    },
-    {
-      "tipo": "practica_deporte_amateur",
-      "monto": 2500,
-      "moneda": "USD",
-      "descripcion": "Práctica por deporte amateur y/o actividad recreativa"
-    },
-    {
-      "tipo": "emergencia_dental",
-      "monto": 300,
-      "moneda": "USD",
-      "descripcion": "Emergencia dental"
-    },
-    {
-      "tipo": "asistencia_veterinaria",
-      "monto": 200,
-      "moneda": "USD",
-      "descripcion": "Asistencia veterinaria en caso de enfermedad o accidente"
-    }
-  ],
+  "coberturas_detalladas": [],
   "seguros": [],
   "cancelacion_viaje": {
-    "incluido": true,
-    "monto": 300,
-    "evento_multiple": 1,
-    "moneda": "USD"
+    "incluido": false,
+    "monto": null,
+    "evento_multiple": null,
+    "moneda": ""
   },
   "equipaje": {
     "demora": {
@@ -82,9 +39,9 @@
       "detalle": ""
     },
     "perdida": {
-      "monto": 500,
-      "moneda": "USD",
-      "detalle": "Compensación por pérdida de equipaje"
+      "monto": null,
+      "moneda": "",
+      "detalle": ""
     },
     "danio": {
       "monto": null,
@@ -92,8 +49,8 @@
       "detalle": ""
     },
     "localizacion": {
-      "incluido": true,
-      "detalle": "Orientación en extravío de documentos, equipajes"
+      "incluido": false,
+      "detalle": ""
     }
   },
   "otros_servicios": {
@@ -105,12 +62,12 @@
     },
     "cruceros": true,
     "deportes_amateur": true,
-    "orientacion_turistica": true,
+    "orientacion_turistica": false,
     "asistencia_legal": true,
-    "fianza_legal": true,
+    "fianza_legal": false,
     "transmision_mensajes": true,
-    "reemplazo_ejecutivo": true,
-    "asistencia_veterinaria": true
+    "reemplazo_ejecutivo": false,
+    "asistencia_veterinaria": false
   },
   "requisitos_uso": [
     "Comunicación previa o dentro de las 24 horas del incidente",
@@ -118,14 +75,14 @@
   ],
   "contacto": {
     "telefonos": {
-      "latinoamerica": "+55 1142308791",
-      "norteamerica": "+1 305 6005541",
-      "europa": "+34 911986998",
+      "latinoamerica": "",
+      "norteamerica": "",
+      "europa": "",
       "asia": "",
       "resto_del_mundo": "",
       "otros": []
     },
-    "whatsapp": "+507 62527067",
+    "whatsapp": "",
     "emails": [],
     "sitios_web": []
   },
@@ -140,19 +97,19 @@
     "consultas_virtuales": [],
     "bonificaciones_post_viaje": "",
     "extensibilidad_voucher": false,
-    "covid_gastos_cremacion": 1500,
+    "covid_gastos_cremacion": null,
     "cuarentena_covid_hotel": {
-      "monto": 2000,
-      "pais": "Costa Rica"
+      "monto": null,
+      "pais": ""
     },
     "repatriacion_quiebra_aerea": false,
     "restricciones_explicitas": []
   },
   "coberturas_estandarizadas": {
     "asistencia_medica": {
-      "monto": 57000,
-      "moneda": "USD",
-      "descripcion": "Asistencia médica por enfermedad no preexistente"
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
     },
     "asistencia_medica_preexistente": {
       "monto": null,
@@ -160,9 +117,9 @@
       "descripcion": ""
     },
     "asistencia_medica_covid": {
-      "monto": 57000,
-      "moneda": "USD",
-      "descripcion": "Asistencia médica por COVID-19"
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
     },
     "asistencia_embarazo": {
       "monto": null,
@@ -170,9 +127,9 @@
       "descripcion": ""
     },
     "odontologia_emergencia": {
-      "monto": 300,
-      "moneda": "USD",
-      "descripcion": "Emergencia dental"
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
     },
     "medicamentos": {
       "monto": null,
@@ -215,14 +172,14 @@
       "descripcion": ""
     },
     "deportes_amateur": {
-      "monto": 2500,
-      "moneda": "USD",
-      "descripcion": "Práctica por deporte amateur y/o actividad recreativa"
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
     },
     "asistencia_legal": {
-      "monto": 1000,
-      "moneda": "USD",
-      "descripcion": "Asistencia legal por accidente de tránsito"
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
     },
     "fianza_legal": {
       "monto": null,
@@ -240,9 +197,9 @@
       "descripcion": ""
     },
     "asistencia_veterinaria": {
-      "monto": 200,
-      "moneda": "USD",
-      "descripcion": "Asistencia veterinaria en caso de enfermedad o accidente"
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
     },
     "repatriacion": {
       "monto": null,
@@ -278,9 +235,9 @@
     }
   },
   "_metadata": {
-    "company_detected": "Noma",
-    "filename": "Noma - Noma 57K.md",
-    "extraction_timestamp": "2025-07-07T23:07:34.580085",
+    "company_detected": "Intermac",
+    "filename": "CCGG Intermac.md",
+    "extraction_timestamp": "2025-07-07T22:59:20.989292",
     "schema_version": "standardized_v1.0",
     "normalization_applied": true
   }

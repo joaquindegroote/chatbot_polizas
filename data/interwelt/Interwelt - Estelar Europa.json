@@ -1,27 +1,325 @@
 {
-  "product_name": "Estelar Europa",
-  "product_code": "ESTELAR EUROPA",
-  "company_name": "Interwelt",
-  "medical_emergency_amount": "EUR 30.000",
-  "pre_existing_conditions": "EUR 700",
-  "covid_coverage": "EUR 30.000",
-  "dental_emergency_amount": "EUR 450",
-  "pregnancy_coverage": null,
-  "medical_repatriation": "EUR 30.000",
-  "funeral_repatriation": "EUR 30.000",
-  "baggage_loss": "EUR 1.000",
-  "baggage_delay": "EUR 250",
-  "trip_cancellation": null,
-  "geographic_coverage": "EUROPA",
-  "max_trip_duration": "90",
-  "age_limit": "Sin limite",
-  "emergency_phone": "+51 984 216550",
-  "_extraction_metadata": {
+  "compania": "Interwelt",
+  "producto": {
+    "nombre": "ESTELAR EUROPA - Viaje Simple Low Cost",
+    "codigo": "1318350",
+    "vigencia": {
+      "desde": "17/09/2024",
+      "hasta": "02/10/2024"
+    },
+    "dias_maximos": 90,
+    "restricciones_edad": {
+      "limite": null,
+      "grupo_etario": "",
+      "observaciones": ""
+    },
+    "cobertura_geografica": "Europa",
+    "territorialidad": "internacional",
+    "aseguradora": "INTERWELT",
+    "requiere_autorizacion": true,
+    "asistencia_covid": true,
+    "franquicia": "No aplica"
+  },
+  "cobertura_global": {
+    "monto": 30000,
+    "moneda": "EUR"
+  },
+  "coberturas_detalladas": [
+    {
+      "tipo": "asistencia_medica_accidente",
+      "monto": 30000,
+      "moneda": "EUR",
+      "descripcion": "Asistencia médica por accidente"
+    },
+    {
+      "tipo": "asistencia_medica_enfermedad",
+      "monto": 30000,
+      "moneda": "EUR",
+      "descripcion": "Asistencia médica por enfermedad"
+    },
+    {
+      "tipo": "asistencia_medica_covid",
+      "monto": 30000,
+      "moneda": "EUR",
+      "descripcion": "Asistencia médica por COVID-19, resto del mundo"
+    },
+    {
+      "tipo": "asistencia_medica_preexistente",
+      "monto": 700,
+      "moneda": "EUR",
+      "descripcion": "Asistencia médica por condición médica preexistente"
+    },
+    {
+      "tipo": "asistencia_odontologica",
+      "monto": 450,
+      "moneda": "EUR",
+      "descripcion": "Asistencia odontológica por emergencia"
+    },
+    {
+      "tipo": "hotel_convalecencia",
+      "monto": 450,
+      "moneda": "EUR",
+      "descripcion": "Hotel por convalecencia"
+    },
+    {
+      "tipo": "repatriacion_sanitaria",
+      "monto": 30000,
+      "moneda": "EUR",
+      "descripcion": "Repatriación sanitaria"
+    },
+    {
+      "tipo": "repatriacion_restos",
+      "monto": 30000,
+      "moneda": "EUR",
+      "descripcion": "Repatriación de restos"
+    },
+    {
+      "tipo": "cremacion_repatriacion_covid",
+      "monto": 5000,
+      "moneda": "EUR",
+      "descripcion": "Gastos de cremación y repatriación de restos por COVID-19"
+    },
+    {
+      "tipo": "indemnizacion_perdida_equipaje",
+      "monto": 1000,
+      "moneda": "EUR",
+      "descripcion": "Indemnización por pérdida de equipaje"
+    },
+    {
+      "tipo": "gastos_vuelo_demorado",
+      "monto": 250,
+      "moneda": "EUR",
+      "descripcion": "Gastos por vuelo demorado (6 Horas)"
+    },
+    {
+      "tipo": "asistencia_legal_accidente_transito",
+      "monto": 3000,
+      "moneda": "EUR",
+      "descripcion": "Asistencia legal por accidente de tránsito"
+    },
+    {
+      "tipo": "transferencia_fondos_fianza_legal",
+      "monto": 6000,
+      "moneda": "EUR",
+      "descripcion": "Transferencia de fondos para fianza legal"
+    }
+  ],
+  "seguros": [],
+  "cancelacion_viaje": {
+    "incluido": false,
+    "monto": null,
+    "evento_multiple": null,
+    "moneda": ""
+  },
+  "equipaje": {
+    "demora": {
+      "monto": null,
+      "moneda": "",
+      "detalle": ""
+    },
+    "perdida": {
+      "monto": 1000,
+      "moneda": "EUR",
+      "detalle": "Indemnización por pérdida de equipaje"
+    },
+    "danio": {
+      "monto": null,
+      "moneda": "",
+      "detalle": ""
+    },
+    "localizacion": {
+      "incluido": true,
+      "detalle": "Orientación en caso de extravío de documentación y/o equipaje"
+    }
+  },
+  "otros_servicios": {
+    "asistencia_documentos": true,
+    "electronicos_protegidos": {
+      "incluido": false,
+      "monto": null,
+      "moneda": ""
+    },
+    "cruceros": false,
+    "deportes_amateur": false,
+    "orientacion_turistica": true,
+    "asistencia_legal": true,
+    "fianza_legal": true,
+    "transmision_mensajes": true,
+    "reemplazo_ejecutivo": false,
+    "asistencia_veterinaria": false
+  },
+  "requisitos_uso": [
+    "Comunicación previa o dentro de las 24 horas del incidente",
+    "Tener voucher, contacto y ubicación a mano"
+  ],
+  "contacto": {
+    "telefonos": {
+      "latinoamerica": "Argentina (+54) 221 4477870, Colombia (+57)60 1 5800104, Cuba (+53)52803563, México (+52)722 4773985, Panamá (+507) 8365262, Perú (+51) 17057724, Republica Dominicana (+1) 829 2343408",
+      "norteamerica": "USA (+1) 8669780436",
+      "europa": "España (+34) 911986998",
+      "asia": "",
+      "resto_del_mundo": "",
+      "otros": []
+    },
+    "whatsapp": "+51 984 216550",
+    "emails": [],
+    "sitios_web": [
+      "https://interwelt-intl.com/pdf/CONDICIONES%20GENERALES%20MACRO_INTERWELT_2024_MARZO_PRODUCCION.pdf"
+    ]
+  },
+  "observaciones": [],
+  "notas": [
+    "Las condiciones pueden variar según edad, país y duración.",
+    "Algunos beneficios aplican solo si se solicita asistencia previa.",
+    "Los beneficios pueden estar sujetos a franquicia o copago.",
+    "Cobertura no aplica en país de residencia salvo indicación expresa."
+  ],
+  "beneficios_adicionales": {
+    "consultas_virtuales": [],
+    "bonificaciones_post_viaje": "30 días de orientación médica ilimitada con Dr. Welt",
+    "extensibilidad_voucher": true,
+    "covid_gastos_cremacion": 5000,
+    "cuarentena_covid_hotel": {
+      "monto": null,
+      "pais": ""
+    },
+    "repatriacion_quiebra_aerea": false,
+    "restricciones_explicitas": []
+  },
+  "coberturas_estandarizadas": {
+    "asistencia_medica": {
+      "monto": 30000,
+      "moneda": "EUR",
+      "descripcion": "Asistencia médica por enfermedad"
+    },
+    "asistencia_medica_preexistente": {
+      "monto": 700,
+      "moneda": "EUR",
+      "descripcion": "Asistencia médica por condición médica preexistente"
+    },
+    "asistencia_medica_covid": {
+      "monto": 30000,
+      "moneda": "EUR",
+      "descripcion": "Asistencia médica por COVID-19, resto del mundo"
+    },
+    "asistencia_embarazo": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "odontologia_emergencia": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "medicamentos": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "hotel_convalecencia": {
+      "monto": 450,
+      "moneda": "EUR",
+      "descripcion": "Hotel por convalecencia"
+    },
+    "hotel_cuarentena_covid": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "equipaje_perdido": {
+      "monto": 1000,
+      "moneda": "EUR",
+      "descripcion": "Indemnización por pérdida de equipaje"
+    },
+    "equipaje_demora": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "equipaje_danio": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "cancelacion_viaje": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "vuelo_demorado": {
+      "monto": 250,
+      "moneda": "EUR",
+      "descripcion": "Gastos por vuelo demorado (6 Horas)"
+    },
+    "deportes_amateur": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "asistencia_legal": {
+      "monto": 3000,
+      "moneda": "EUR",
+      "descripcion": "Asistencia legal por accidente de tránsito"
+    },
+    "fianza_legal": {
+      "monto": 6000,
+      "moneda": "EUR",
+      "descripcion": "Transferencia de fondos para fianza legal"
+    },
+    "pasaporte_perdido": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "protesis_ortesis": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "asistencia_veterinaria": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "repatriacion": {
+      "monto": 30000,
+      "moneda": "EUR",
+      "descripcion": "Repatriación de restos"
+    },
+    "repatriacion_covid": {
+      "monto": 5000,
+      "moneda": "EUR",
+      "descripcion": "Gastos de cremación y repatriación de restos por COVID-19"
+    }
+  },
+  "seguros_estandarizados": {
+    "vida": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "invalidez_total": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "invalidez_permanente": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "accidentes_personales": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    }
+  },
+  "_metadata": {
     "company_detected": "Interwelt",
     "filename": "Interwelt - Estelar Europa.md",
-    "extraction_timestamp": "2025-07-07T13:50:00.084220",
-    "fields_extracted": 15,
-    "total_fields": 17,
-    "extraction_method": "llm_generic"
+    "extraction_timestamp": "2025-07-07T23:04:06.421934",
+    "schema_version": "standardized_v1.0",
+    "normalization_applied": true
   }
 }

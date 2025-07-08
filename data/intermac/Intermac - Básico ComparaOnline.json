@@ -1,27 +1,297 @@
 {
-  "product_name": "NOVALIDOPARACREDITOFISCAL",
-  "product_code": null,
-  "company_name": "Intermac",
-  "medical_emergency_amount": "USD 10.000",
-  "pre_existing_conditions": "USD 200",
-  "covid_coverage": "USD 10.000",
-  "dental_emergency_amount": "USD 200",
-  "pregnancy_coverage": null,
-  "medical_repatriation": "INCLUIDO",
-  "funeral_repatriation": "INCLUIDO",
-  "baggage_loss": "USD 400",
-  "baggage_delay": null,
-  "trip_cancellation": "INCLUIDO",
-  "geographic_coverage": "INTERNACIONAL",
-  "max_trip_duration": "5 días",
-  "age_limit": "85",
-  "emergency_phone": "+541177003272",
-  "_extraction_metadata": {
+  "compania": "Intermac",
+  "producto": {
+    "nombre": "Básico ComparaOnline",
+    "codigo": "E2/0233262-132",
+    "vigencia": {
+      "desde": "14/08/2024",
+      "hasta": "18/08/2024"
+    },
+    "dias_maximos": null,
+    "restricciones_edad": {
+      "limite": 85,
+      "grupo_etario": "",
+      "observaciones": "Para mayores de 76 años tiene un incremento de 50% en la tarifa y para mayores de 85 tendrá un 100% de incremento en la tarifa"
+    },
+    "cobertura_geografica": "AMERICADELSURYCENTRAL",
+    "territorialidad": "internacional",
+    "aseguradora": "Intermac",
+    "requiere_autorizacion": true,
+    "asistencia_covid": true,
+    "franquicia": ""
+  },
+  "cobertura_global": {
+    "monto": 10000,
+    "moneda": "USD"
+  },
+  "coberturas_detalladas": [
+    {
+      "tipo": "asistencia_medica_accidente",
+      "monto": 10000,
+      "moneda": "USD",
+      "descripcion": "Asistencia médica por accidente"
+    },
+    {
+      "tipo": "asistencia_medica_enfermedad",
+      "monto": 10000,
+      "moneda": "USD",
+      "descripcion": "Asistencia médica por enfermedad (Incluido COVID-19)"
+    },
+    {
+      "tipo": "asistencia_medica_preexistencia",
+      "monto": 200,
+      "moneda": "USD",
+      "descripcion": "Asistencia médica en caso de pre-existencia"
+    },
+    {
+      "tipo": "medicamentos_ambulatorios",
+      "monto": 200,
+      "moneda": "USD",
+      "descripcion": "Medicamentos Ambulatorios"
+    },
+    {
+      "tipo": "odontologia_emergencia",
+      "monto": 200,
+      "moneda": "USD",
+      "descripcion": "Odontología de emergencia"
+    },
+    {
+      "tipo": "gastos_hotel_convalecencia",
+      "monto": 800,
+      "moneda": "USD",
+      "descripcion": "Gastos de Hotel por convalecencia"
+    },
+    {
+      "tipo": "indemnizacion_extravio_equipaje",
+      "monto": 400,
+      "moneda": "USD",
+      "descripcion": "Indemnización por extravío de equipaje"
+    },
+    {
+      "tipo": "traslado_familiar_hospitalizacion",
+      "monto": 350,
+      "moneda": "USD",
+      "descripcion": "Traslado de un familiar por hospitalización"
+    }
+  ],
+  "seguros": [],
+  "cancelacion_viaje": {
+    "incluido": false,
+    "monto": null,
+    "evento_multiple": null,
+    "moneda": ""
+  },
+  "equipaje": {
+    "demora": {
+      "monto": null,
+      "moneda": "",
+      "detalle": ""
+    },
+    "perdida": {
+      "monto": 400,
+      "moneda": "USD",
+      "detalle": "Indemnización por extravío de equipaje"
+    },
+    "danio": {
+      "monto": null,
+      "moneda": "",
+      "detalle": ""
+    },
+    "localizacion": {
+      "incluido": false,
+      "detalle": ""
+    }
+  },
+  "otros_servicios": {
+    "asistencia_documentos": true,
+    "electronicos_protegidos": {
+      "incluido": false,
+      "monto": null,
+      "moneda": ""
+    },
+    "cruceros": false,
+    "deportes_amateur": true,
+    "orientacion_turistica": true,
+    "asistencia_legal": true,
+    "fianza_legal": true,
+    "transmision_mensajes": true,
+    "reemplazo_ejecutivo": true,
+    "asistencia_veterinaria": false
+  },
+  "requisitos_uso": [
+    "Comunicación previa o dentro de las 24 horas del incidente",
+    "Tener voucher, contacto y ubicación a mano"
+  ],
+  "contacto": {
+    "telefonos": {
+      "latinoamerica": "+541177003272",
+      "norteamerica": "+17862880108",
+      "europa": "+34910602980",
+      "asia": "+61283171391",
+      "resto_del_mundo": "+552131950968",
+      "otros": []
+    },
+    "whatsapp": "+13053061064",
+    "emails": [
+      "asistencias@intermacinsurance.com"
+    ],
+    "sitios_web": [
+      "https://www.intermacseguros.com/es2/condiciones-generales/Condiciones-Generales-es.pdf"
+    ]
+  },
+  "observaciones": [],
+  "notas": [
+    "Las condiciones pueden variar según edad, país y duración.",
+    "Algunos beneficios aplican solo si se solicita asistencia previa.",
+    "Los beneficios pueden estar sujetos a franquicia o copago.",
+    "Cobertura no aplica en país de residencia salvo indicación expresa."
+  ],
+  "beneficios_adicionales": {
+    "consultas_virtuales": [],
+    "bonificaciones_post_viaje": "",
+    "extensibilidad_voucher": false,
+    "covid_gastos_cremacion": null,
+    "cuarentena_covid_hotel": {
+      "monto": null,
+      "pais": ""
+    },
+    "repatriacion_quiebra_aerea": false,
+    "restricciones_explicitas": []
+  },
+  "coberturas_estandarizadas": {
+    "asistencia_medica": {
+      "monto": 10000,
+      "moneda": "USD",
+      "descripcion": "Asistencia médica por enfermedad (Incluido COVID-19)"
+    },
+    "asistencia_medica_preexistente": {
+      "monto": 200,
+      "moneda": "USD",
+      "descripcion": "Asistencia médica en caso de pre-existencia"
+    },
+    "asistencia_medica_covid": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "asistencia_embarazo": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "odontologia_emergencia": {
+      "monto": 200,
+      "moneda": "USD",
+      "descripcion": "Odontología de emergencia"
+    },
+    "medicamentos": {
+      "monto": 200,
+      "moneda": "USD",
+      "descripcion": "Medicamentos Ambulatorios"
+    },
+    "hotel_convalecencia": {
+      "monto": 800,
+      "moneda": "USD",
+      "descripcion": "Gastos de Hotel por convalecencia"
+    },
+    "hotel_cuarentena_covid": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "equipaje_perdido": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "equipaje_demora": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "equipaje_danio": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "cancelacion_viaje": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "vuelo_demorado": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "deportes_amateur": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "asistencia_legal": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "fianza_legal": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "pasaporte_perdido": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "protesis_ortesis": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "asistencia_veterinaria": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "repatriacion": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "repatriacion_covid": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    }
+  },
+  "seguros_estandarizados": {
+    "vida": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "invalidez_total": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "invalidez_permanente": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "accidentes_personales": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    }
+  },
+  "_metadata": {
     "company_detected": "Intermac",
     "filename": "Intermac - Básico ComparaOnline.md",
-    "extraction_timestamp": "2025-07-07T13:49:01.606888",
-    "fields_extracted": 14,
-    "total_fields": 17,
-    "extraction_method": "llm_generic"
+    "extraction_timestamp": "2025-07-07T22:59:55.909398",
+    "schema_version": "standardized_v1.0",
+    "normalization_applied": true
   }
 }

@@ -1,24 +1,298 @@
 {
-  "company_name": "Cardinal",
-  "product_code": "Plano Adquirido",
-  "product_name": "Plano Adquirido",
-  "emergency_phone": "+56993272501",
-  "max_trip_duration": "30 días",
-  "covid_coverage": "USD 1.000",
-  "pregnancy_coverage": "Incluido hasta semana 26 de embarazo",
-  "geographic_coverage": "MUNDIAL",
-  "medical_repatriation": "Incluido",
-  "funeral_repatriation": "Incluido",
-  "baggage_loss": "900",
-  "baggage_delay": "72",
-  "trip_cancellation": "800",
-  "age_limit": "Sin límite",
-  "_extraction_metadata": {
+  "compania": "Cardinal",
+  "producto": {
+    "nombre": "Internacional 17",
+    "codigo": "292585",
+    "vigencia": {
+      "desde": "14/12/2024",
+      "hasta": "30/12/2024"
+    },
+    "dias_maximos": null,
+    "restricciones_edad": {
+      "limite": 75,
+      "grupo_etario": "mayores de 75 años",
+      "observaciones": "Para los mayores de 75 años la cobertura se reduce en un 50% alcanzando un tope de cobertura de U$S 8,500"
+    },
+    "cobertura_geografica": "Mundial (excepto país de residencia)",
+    "territorialidad": "internacional",
+    "aseguradora": "",
+    "requiere_autorizacion": true,
+    "asistencia_covid": true,
+    "franquicia": "No Incluido"
+  },
+  "cobertura_global": {
+    "monto": 17000,
+    "moneda": "USD"
+  },
+  "coberturas_detalladas": [
+    {
+      "tipo": "asistencia_medica_covid",
+      "monto": 1000,
+      "moneda": "USD",
+      "descripcion": "Asistencia Médica en caso de COVID-19"
+    },
+    {
+      "tipo": "asistencia_medica_enfermedad",
+      "monto": 17000,
+      "moneda": "USD",
+      "descripcion": "Asistencia Médica por Enfermedad"
+    },
+    {
+      "tipo": "asistencia_medica_accidente",
+      "monto": 17000,
+      "moneda": "USD",
+      "descripcion": "Asistencia Médica por Accidente"
+    },
+    {
+      "tipo": "asistencia_medica_accidentes_deportivos",
+      "monto": 300,
+      "moneda": "USD",
+      "descripcion": "Asistencia Médica por accidentes deportivos"
+    },
+    {
+      "tipo": "medicamentos",
+      "monto": 500,
+      "moneda": "USD",
+      "descripcion": "Medicamentos"
+    },
+    {
+      "tipo": "odontologia",
+      "monto": 400,
+      "moneda": "USD",
+      "descripcion": "Odontología"
+    },
+    {
+      "tipo": "repatriacion_sanitaria",
+      "monto": null,
+      "moneda": "",
+      "descripcion": "Repatriación Sanitaria por Enfermedad y Accidente"
+    },
+    {
+      "tipo": "repatriacion_funeraria",
+      "monto": null,
+      "moneda": "",
+      "descripcion": "Repatriación Funeraria o Traslado de restos"
+    }
+  ],
+  "seguros": [],
+  "cancelacion_viaje": {
+    "incluido": true,
+    "monto": 800,
+    "evento_multiple": 0,
+    "moneda": "USD"
+  },
+  "equipaje": {
+    "demora": {
+      "monto": 150,
+      "moneda": "USD",
+      "detalle": "Gastos por demora de equipaje más de 72 hs"
+    },
+    "perdida": {
+      "monto": 900,
+      "moneda": "USD",
+      "detalle": "Compensación por pérdida de equipaje complementaria en vuelos internacionales"
+    },
+    "danio": {
+      "monto": null,
+      "moneda": "",
+      "detalle": ""
+    },
+    "localizacion": {
+      "incluido": true,
+      "detalle": "Localización de equipaje"
+    }
+  },
+  "otros_servicios": {
+    "asistencia_documentos": true,
+    "electronicos_protegidos": {
+      "incluido": true,
+      "monto": 150,
+      "moneda": "USD"
+    },
+    "cruceros": false,
+    "deportes_amateur": false,
+    "orientacion_turistica": false,
+    "asistencia_legal": true,
+    "fianza_legal": true,
+    "transmision_mensajes": true,
+    "reemplazo_ejecutivo": true,
+    "asistencia_veterinaria": false
+  },
+  "requisitos_uso": [
+    "Comunicación previa o dentro de las 24 horas del incidente",
+    "Tener voucher, contacto y ubicación a mano"
+  ],
+  "contacto": {
+    "telefonos": {
+      "latinoamerica": "0800 999 0994",
+      "norteamerica": "1 866 430 9268",
+      "europa": "900 995 461",
+      "asia": "",
+      "resto_del_mundo": "+54 11 4129 7600",
+      "otros": []
+    },
+    "whatsapp": "",
+    "emails": [
+      "turismo@cardinalsisa.com",
+      "asistencias@cardinalsisa.com"
+    ],
+    "sitios_web": [
+      "https://www.cardinalassistance.com/voucher.php?nro=292585&cg=7236c1136a2db4e374d2b1e69849ff45"
+    ]
+  },
+  "observaciones": [],
+  "notas": [
+    "Las condiciones pueden variar según edad, país y duración.",
+    "Algunos beneficios aplican solo si se solicita asistencia previa.",
+    "Los beneficios pueden estar sujetos a franquicia o copago.",
+    "Cobertura no aplica en país de residencia salvo indicación expresa."
+  ],
+  "beneficios_adicionales": {
+    "consultas_virtuales": [],
+    "bonificaciones_post_viaje": "",
+    "extensibilidad_voucher": false,
+    "covid_gastos_cremacion": null,
+    "cuarentena_covid_hotel": {
+      "monto": null,
+      "pais": ""
+    },
+    "repatriacion_quiebra_aerea": false,
+    "restricciones_explicitas": []
+  },
+  "coberturas_estandarizadas": {
+    "asistencia_medica": {
+      "monto": 17000,
+      "moneda": "USD",
+      "descripcion": "Asistencia Médica por Accidente"
+    },
+    "asistencia_medica_preexistente": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "asistencia_medica_covid": {
+      "monto": 1000,
+      "moneda": "USD",
+      "descripcion": "Asistencia Médica en caso de COVID-19"
+    },
+    "asistencia_embarazo": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "odontologia_emergencia": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "medicamentos": {
+      "monto": 500,
+      "moneda": "USD",
+      "descripcion": "Medicamentos"
+    },
+    "hotel_convalecencia": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "hotel_cuarentena_covid": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "equipaje_perdido": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "equipaje_demora": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "equipaje_danio": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "cancelacion_viaje": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "vuelo_demorado": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "deportes_amateur": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "asistencia_legal": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "fianza_legal": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "pasaporte_perdido": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "protesis_ortesis": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "asistencia_veterinaria": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "repatriacion": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": "Repatriación Sanitaria por Enfermedad y Accidente"
+    },
+    "repatriacion_covid": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    }
+  },
+  "seguros_estandarizados": {
+    "vida": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "invalidez_total": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "invalidez_permanente": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    },
+    "accidentes_personales": {
+      "monto": null,
+      "moneda": "",
+      "descripcion": ""
+    }
+  },
+  "_metadata": {
     "company_detected": "Cardinal",
     "filename": "Cardinal - Internacional 17.md",
-    "extraction_timestamp": "2025-07-07T13:48:24.005861",
-    "fields_extracted": 14,
-    "total_fields": 14,
-    "extraction_method": "cardinal_specific"
+    "extraction_timestamp": "2025-07-07T22:56:14.962761",
+    "schema_version": "standardized_v1.0",
+    "normalization_applied": true
   }
 }
