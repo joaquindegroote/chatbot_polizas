@@ -50,7 +50,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("### 💡 Ejemplos de Preguntas")
     ejemplos = [
-        "¿Qué cubre la póliza básica de Noma?",
+        "¿Qué cubre la póliza básica de Noma Pax?",
         "¿Cuál es la edad máxima para contratar seguro?",
         "¿Qué exclusiones tiene el seguro médico?",
         "¿Cuánto es el deducible para equipaje?",
@@ -60,16 +60,16 @@ with st.sidebar:
         "Compara las coberturas de todas las empresas"
     ]
     
-    for ejemplo in ejemplos:
-        if st.button(ejemplo, key=f"ejemplo_{ejemplo[:20]}"):
-            st.session_state['pregunta_ejemplo'] = ejemplo
+    for i, ejemplo in enumerate(ejemplos):
+        if st.button(ejemplo, key=f"ejemplo_btn_{i}"):
+            st.session_state['pregunta_seleccionada'] = ejemplo
 
 # Área principal
 col1, col2 = st.columns([3, 1])
 
 with col1:
     # Input para la pregunta
-    pregunta_inicial = st.session_state.get('pregunta_ejemplo', '')
+    pregunta_inicial = st.session_state.get('pregunta_seleccionada', '')
     pregunta = st.text_area(
         "📝 Escribe tu pregunta sobre seguros:", 
         value=pregunta_inicial,
@@ -78,8 +78,8 @@ with col1:
     )
     
     # Limpiar la pregunta ejemplo después de usarla
-    if 'pregunta_ejemplo' in st.session_state:
-        del st.session_state['pregunta_ejemplo']
+    if 'pregunta_seleccionada' in st.session_state:
+        del st.session_state['pregunta_seleccionada']
 
 with col2:
     st.markdown("### 🎯 Filtros")
@@ -164,7 +164,7 @@ with st.expander("❓ Ayuda y Consejos"):
     ### 🎯 Cómo hacer mejores preguntas:
     
     **✅ Preguntas específicas:**
-    - "¿Cuál es el límite de cobertura médica en la póliza Premium de Mapfre?"
+    - "¿Cuál es el límite de cobertura médica en la póliza Premium de Noma?"
     - "¿Qué exclusiones tiene el seguro de equipaje?"
     
     **✅ Preguntas comparativas:**
