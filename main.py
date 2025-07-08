@@ -76,10 +76,6 @@ with col1:
         height=100,
         placeholder="Ejemplo: ¿Qué cubre la póliza de Pax para emergencias médicas?"
     )
-    
-    # Limpiar la pregunta ejemplo después de usarla
-    if 'pregunta_seleccionada' in st.session_state:
-        del st.session_state['pregunta_seleccionada']
 
 with col2:
     st.markdown("### 🎯 Filtros")
@@ -91,6 +87,7 @@ with col2:
     
     incluir_comparacion = st.checkbox("Incluir comparación entre empresas", value=True)
 
+# Procesamiento de la consulta
 if st.button("🔍 Consultar", type="primary") and pregunta:
     with st.spinner("Analizando información..."):
         # Filtrar documentos si se seleccionó una empresa específica
@@ -133,7 +130,7 @@ Responde de forma profesional pero accesible:
             response = client.chat.completions.create(
                 model="gpt-4o",
                 messages=[{"role": "user", "content": prompt}],
-                temperature=0.1,  # Más determinista
+                temperature=0.1,
                 max_tokens=1500
             )
             respuesta = response.choices[0].message.content
@@ -146,16 +143,20 @@ Responde de forma profesional pero accesible:
             with st.expander("🔍 Información Técnica"):
                 st.markdown("**Documentos consultados:**")
                 docs_relevantes = [doc for doc in docs_filtrados if any(palabra in doc['search_text'].lower() for palabra in pregunta.lower().split())]
-                for doc in docs_relevantes[:5]:  # Mostrar máximo 5
+                for doc in docs_relevantes[:5]:
                     st.write(f"• {doc['company']} - {doc['file']}")
                 
                 st.markdown("**Tokens utilizados:**")
                 st.write(f"Contexto: ~{len(contexto)//4} tokens")
                 st.write(f"Respuesta: ~{len(respuesta)//4} tokens")
-            
+        
         except Exception as e:
             st.error(f"Error al procesar la consulta: {e}")
             st.info("Verifica que tu API key de OpenAI esté correctamente configurada.")
+
+    # ✅ Limpiar la pregunta seleccionada después de usarla
+    if 'pregunta_seleccionada' in st.session_state:
+        del st.session_state['pregunta_seleccionada']
 
 # Área de ayuda
 st.markdown("---")
